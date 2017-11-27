@@ -4,12 +4,12 @@
             <v-flex xs12>
                 <v-carousel style="cursor: pointer;">
                     <v-carousel-item class="carousel-item"
-                    v-for="meetup in meetups"
-                    :src="meetup.imgUrl"
-                    :key="meetup.id"
+                    v-for="carousel in carousels"
+                    :src="carousel.imgUrl"
+                    :key="carousel.id"
                     @click="">
                     <div class="title">
-                      {{ meetup.title }}
+                      {{ carousel.title }}
                     </div>
                     </v-carousel-item>
                 </v-carousel>
@@ -83,8 +83,6 @@
           </div>
         </v-flex>
         </v-layout>
-        <div class="red" style="height: 200px; width: 1000px; margin: 0 auto;">
-        </div>
     </v-container>
 </template>
 
@@ -92,7 +90,7 @@
   export default {
     data () {
       return {
-        meetups: [
+        carousels: [
           {imgUrl: '../src/assets/crfc-1-1000w.jpg', id: 'adkjadk123', title: 'RF1'},
           {imgUrl: '../src/assets/crfc-2-1000w.jpg', id: 'adkjadk123', title: 'RF2'},
           {imgUrl: '../src/assets/crfc-4-1000w.jpg', id: 'adkjadk123', title: 'RF4'},
