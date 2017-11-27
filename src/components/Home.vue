@@ -91,7 +91,7 @@
     data () {
       return {
         carousels: [
-          {imgUrl: '../static/img/crfc-1-1000w.jpg', id: 'adkjadk123', title: 'RF1'},
+          {imgUrl: 'static/img/crfc-1-1000w.jpg', id: 'adkjadk123', title: 'RF1'},
           {imgUrl: '../src/assets/crfc-2-1000w.jpg', id: 'adkjadk123', title: 'RF2'},
           {imgUrl: '../src/assets/crfc-4-1000w.jpg', id: 'adkjadk123', title: 'RF4'},
           {imgUrl: '../src/assets/trophy-563h.jpg', id: 'adkjadk124', title: 'Trophy'}
