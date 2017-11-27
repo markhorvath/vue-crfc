@@ -5,7 +5,7 @@
       </v-toolbar-side-icon>
       <v-toolbar-title>
         <router-link to="/" tag="span" style="cursor: pointer;">CRFC</router-link></v-toolbar-title>
-      <img src="../src/images/crfc-logo-light.png" style="height: 54px; margin-left: 8px;">
+      <img src="../src/assets/crfc-logo-light.png" style="height: 54px; margin-left: 8px;">
       <v-spacer></v-spacer>
       <v-toolbar-items class="hidden-xs-only">
         <v-menu open-on-hover offset-y>

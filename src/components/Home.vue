@@ -21,7 +21,7 @@
                 <v-card-media
                   class="white--text"
                   height="400px"
-                  src="../src/images/build-team-lg.JPG"
+                  src="../src/assets/build-team-lg.JPG"
                 >
                 <v-container fill-height fluid>
                   <v-layout fill-height>
@@ -50,7 +50,7 @@
                         <h1 class="text--white" style="margin: 0 auto;">Build a Team</h1>
                     </v-card-title>
                     <v-card-media
-                        src="../src/images/build-team-lg.JPG"
+                        src="../src/assets/build-team-lg.JPG"
                         height="450px"
                     ></v-card-media>
                     <v-card-text secondary>
@@ -93,10 +93,10 @@
     data () {
       return {
         meetups: [
-          {imgUrl: '../src/images/crfc-1-1000w.jpg', id: 'adkjadk123', title: 'RF1'},
-          {imgUrl: '../src/images/crfc-2-1000w.jpg', id: 'adkjadk123', title: 'RF2'},
-          {imgUrl: '../src/images/crfc-4-1000w.jpg', id: 'adkjadk123', title: 'RF4'},
-          {imgUrl: '../src/images/trophy-563h.jpg', id: 'adkjadk124', title: 'Trophy'}
+          {imgUrl: '../src/assets/crfc-1-1000w.jpg', id: 'adkjadk123', title: 'RF1'},
+          {imgUrl: '../src/assets/crfc-2-1000w.jpg', id: 'adkjadk123', title: 'RF2'},
+          {imgUrl: '../src/assets/crfc-4-1000w.jpg', id: 'adkjadk123', title: 'RF4'},
+          {imgUrl: '../src/assets/trophy-563h.jpg', id: 'adkjadk124', title: 'Trophy'}
         ],
         sponsors: ['GE', 'Visual Edge', 'Boeing', 'Yaskawa'],
         members: ['University of Notre Dame', 'Ohio Northern University', 'U.S. Naval Academy', 'Valparaiso University', 'Purdue Polytechnic', 'University of Mount Union', 'Indian Universiy - Purdue University Indianapolis'],
