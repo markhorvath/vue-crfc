@@ -56,7 +56,7 @@ module.exports = {
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
     // I took out the '/' below which enabled my .png logo to show on gh-pages
-    assetsPublicPath: './',
+    assetsPublicPath: '',
 
     /**
      * Source Maps
