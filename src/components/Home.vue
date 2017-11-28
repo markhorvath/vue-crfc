@@ -124,4 +124,8 @@
   list-style-type: none;
   font-size: 20px;
 }
+
+.title {
+  color: white;
+}
 </style>
