@@ -50,7 +50,7 @@
                         <h1 class="text--white" style="margin: 0 auto;">Build a Team</h1>
                     </v-card-title>
                     <v-card-media
-                        src="../src/assets/build-team-lg.JPG"
+                        src="static/img/build-team-lg.JPG"
                         height="450px"
                     ></v-card-media>
                     <v-card-text secondary>
