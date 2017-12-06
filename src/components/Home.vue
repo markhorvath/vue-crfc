@@ -15,35 +15,6 @@
                 </v-carousel>
             </v-flex>
         </v-layout>
-
-<!--         <v-layout row wrap class="mt-3">
-            <v-flex xs12 sm10 md8 offset-sm1 offset-md2>
-              <v-card>
-                <v-card-media
-                  class="white--text"
-                  height="400px"
-                  src="static/img/build-team-lg.JPG"
-                >
-                <v-container fill-height fluid>
-                  <v-layout fill-height>
-                    <v-flex xs12 align-end flexbox style="margin: 0 auto;">
-                      <h2 wrap elevation-20 style="font-size: 40px !important; color: yellow !important;" class="headline">Build A Team</h2>
-                    </v-flex>
-                  </v-layout>
-                </v-container>
-              </v-card-media>
-              <v-card-title style="position: -100;">
-                <div>
-                  <span class="primary--text text-xs-center">Register by January 18, 2018</span>
-                </div>
-              </v-card-title>
-              <v-card-actions>
-                <v-btn secondary style="margin: 0 auto !important;">Learn More</v-btn>
-              </v-card-actions>
-            </v-card>
-          </v-flex>
-        </v-layout> -->
-
         <v-layout row wrap class="mt-3">
             <v-flex xs12 sm10 md8 offset-sm1 offset-md2>
                 <v-card primary>
@@ -95,7 +66,7 @@
           {imgUrl: 'static/img/crfc-1-1000w.jpg', id: 'adkjadk123', title: 'Caption 1'},
           {imgUrl: 'static/img/crfc-2-1000w.jpg', id: 'adkjadk123', title: 'Caption 2'},
           {imgUrl: 'static/img/crfc-4-1000w.jpg', id: 'adkjadk123', title: 'Caption 3'},
-          {imgUrl: 'static/img/trophy-563h.jpg', id: 'adkjadk124', title: 'Trophy'}
+          {imgUrl: 'static/img/hederman-trophy-1000w.jpg', id: 'adkjadk124', title: 'Trophy'}
         ],
         sponsors: ['GE', 'Visual Edge', 'Boeing', 'Yaskawa'],
         members: ['University of Notre Dame', 'Ohio Northern University', 'U.S. Naval Academy', 'Valparaiso University', 'Purdue Polytechnic', 'University of Mount Union', 'Indian Universiy - Purdue University Indianapolis'],
