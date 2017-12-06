@@ -12,6 +12,7 @@
     "deploy": "node ./node_modules/vue-gh-pages/index.js"
   },
   "dependencies": {
+    "firebase": "^4.7.0",
     "vue": "^2.5.3",
     "vue-gh-pages": "^1.6.4",
     "vue-router": "^3.0.1",

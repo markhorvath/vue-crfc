@@ -87,7 +87,7 @@
 }
 
 #sponsors h1, #members h1 {
-  color: #1e5d88;
+  color: #566E3D;
   font-size: 32px;
 }
 
